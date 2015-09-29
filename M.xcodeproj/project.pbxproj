@@ -21,6 +21,14 @@
 		6BF554111AF1899B0076B8E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF553F31AF1899B0076B8E1 /* UIKit.framework */; };
 		6BF554191AF1899B0076B8E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BF554171AF1899B0076B8E1 /* InfoPlist.strings */; };
 		6BF5541B1AF1899B0076B8E1 /* MTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF5541A1AF1899B0076B8E1 /* MTests.m */; };
+		6BF554251AF189B70076B8E1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF554241AF189B70076B8E1 /* AVFoundation.framework */; };
+		6BF5542B1AF189F00076B8E1 /* Questions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF5542A1AF189F00076B8E1 /* Questions.m */; };
+		6BF5542D1AF18CE60076B8E1 /* KingsOfLeon_SexOnFire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6BF5542C1AF18CE60076B8E1 /* KingsOfLeon_SexOnFire.mp3 */; };
+		6BF554301AF191130076B8E1 /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF5542E1AF191130076B8E1 /* incorrect.png */; };
+		6BF554311AF191130076B8E1 /* correct.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BF5542F1AF191130076B8E1 /* correct.jpg */; };
+		6BF554341AF1BF9C0076B8E1 /* Q.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF554331AF1BF9C0076B8E1 /* Q.m */; };
+		6BF554371AF1EFC10076B8E1 /* TheBeatles_ComeTogether.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6BF554361AF1EFC10076B8E1 /* TheBeatles_ComeTogether.mp3 */; };
+		6BF554391AF203380076B8E1 /* TheWindandTheWave_ItsaLongerRoadtoCaliforniaThanIThought.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6BF554381AF203380076B8E1 /* TheWindandTheWave_ItsaLongerRoadtoCaliforniaThanIThought.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,16 @@
 		6BF554161AF1899B0076B8E1 /* MTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MTests-Info.plist"; sourceTree = "<group>"; };
 		6BF554181AF1899B0076B8E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6BF5541A1AF1899B0076B8E1 /* MTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTests.m; sourceTree = "<group>"; };
+		6BF554241AF189B70076B8E1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6BF554291AF189F00076B8E1 /* Questions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Questions.h; path = ../Questions.h; sourceTree = "<group>"; };
+		6BF5542A1AF189F00076B8E1 /* Questions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Questions.m; path = ../Questions.m; sourceTree = "<group>"; };
+		6BF5542C1AF18CE60076B8E1 /* KingsOfLeon_SexOnFire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = KingsOfLeon_SexOnFire.mp3; sourceTree = "<group>"; };
+		6BF5542E1AF191130076B8E1 /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
+		6BF5542F1AF191130076B8E1 /* correct.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = correct.jpg; sourceTree = "<group>"; };
+		6BF554321AF1BF9B0076B8E1 /* Q.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Q.h; path = ../Q.h; sourceTree = "<group>"; };
+		6BF554331AF1BF9C0076B8E1 /* Q.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Q.m; path = ../Q.m; sourceTree = "<group>"; };
+		6BF554361AF1EFC10076B8E1 /* TheBeatles_ComeTogether.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TheBeatles_ComeTogether.mp3; sourceTree = "<group>"; };
+		6BF554381AF203380076B8E1 /* TheWindandTheWave_ItsaLongerRoadtoCaliforniaThanIThought.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TheWindandTheWave_ItsaLongerRoadtoCaliforniaThanIThought.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BF554251AF189B70076B8E1 /* AVFoundation.framework in Frameworks */,
 				6BF553F21AF1899B0076B8E1 /* CoreGraphics.framework in Frameworks */,
 				6BF553F41AF1899B0076B8E1 /* UIKit.framework in Frameworks */,
 				6BF553F01AF1899B0076B8E1 /* Foundation.framework in Frameworks */,
@@ -101,6 +120,7 @@
 		6BF553EE1AF1899B0076B8E1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6BF554241AF189B70076B8E1 /* AVFoundation.framework */,
 				6BF553EF1AF1899B0076B8E1 /* Foundation.framework */,
 				6BF553F11AF1899B0076B8E1 /* CoreGraphics.framework */,
 				6BF553F31AF1899B0076B8E1 /* UIKit.framework */,
@@ -117,6 +137,10 @@
 				6BF554011AF1899B0076B8E1 /* Main.storyboard */,
 				6BF554041AF1899B0076B8E1 /* ViewController.h */,
 				6BF554051AF1899B0076B8E1 /* ViewController.m */,
+				6BF554291AF189F00076B8E1 /* Questions.h */,
+				6BF5542A1AF189F00076B8E1 /* Questions.m */,
+				6BF554321AF1BF9B0076B8E1 /* Q.h */,
+				6BF554331AF1BF9C0076B8E1 /* Q.m */,
 				6BF554071AF1899B0076B8E1 /* Images.xcassets */,
 				6BF553F61AF1899B0076B8E1 /* Supporting Files */,
 			);
@@ -126,6 +150,11 @@
 		6BF553F61AF1899B0076B8E1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6BF554381AF203380076B8E1 /* TheWindandTheWave_ItsaLongerRoadtoCaliforniaThanIThought.mp3 */,
+				6BF554361AF1EFC10076B8E1 /* TheBeatles_ComeTogether.mp3 */,
+				6BF5542E1AF191130076B8E1 /* incorrect.png */,
+				6BF5542F1AF191130076B8E1 /* correct.jpg */,
+				6BF5542C1AF18CE60076B8E1 /* KingsOfLeon_SexOnFire.mp3 */,
 				6BF553F71AF1899B0076B8E1 /* M-Info.plist */,
 				6BF553F81AF1899B0076B8E1 /* InfoPlist.strings */,
 				6BF553FB1AF1899B0076B8E1 /* main.m */,
@@ -228,8 +257,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BF554301AF191130076B8E1 /* incorrect.png in Resources */,
+				6BF5542D1AF18CE60076B8E1 /* KingsOfLeon_SexOnFire.mp3 in Resources */,
+				6BF554311AF191130076B8E1 /* correct.jpg in Resources */,
+				6BF554391AF203380076B8E1 /* TheWindandTheWave_ItsaLongerRoadtoCaliforniaThanIThought.mp3 in Resources */,
 				6BF554081AF1899B0076B8E1 /* Images.xcassets in Resources */,
 				6BF553FA1AF1899B0076B8E1 /* InfoPlist.strings in Resources */,
+				6BF554371AF1EFC10076B8E1 /* TheBeatles_ComeTogether.mp3 in Resources */,
 				6BF554031AF1899B0076B8E1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +284,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BF554061AF1899B0076B8E1 /* ViewController.m in Sources */,
+				6BF554341AF1BF9C0076B8E1 /* Q.m in Sources */,
+				6BF5542B1AF189F00076B8E1 /* Questions.m in Sources */,
 				6BF554001AF1899B0076B8E1 /* AppDelegate.m in Sources */,
 				6BF553FC1AF1899B0076B8E1 /* main.m in Sources */,
 			);
